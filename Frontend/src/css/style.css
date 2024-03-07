@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+}
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 30vh;
+  padding-top: 30px;
+  background-color: lightgrey;
+}
+#tasks-menu {
+  width: 100px;
+  padding: 5px;
+}
+#main-task-form {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+#addTaskBtn {
+  background-color: #fff;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#task-options-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  gap: 10px;
+  padding: 0 30% 0 30%;
+}
+.choices {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  border-radius: 5px;
+}
+#feChoice {
+  background-color: lightseagreen;
+}
+#uxChoice {
+  background-color: lightsalmon;
+  width: 10%;
+}
+#beChoice {
+  background-color: plum;
+}
+
+.frontend-color {
+  background-color: lightseagreen;
+}
+.design-color {
+  background-color: lightsalmon;
+}
+.backend-color {
+  background-color: plum;
+}
+
+#scrum-board-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100%;
+  height: 70vh;
+}
+h2 {
+  padding-top: 8%;
+  text-align: center;
+}
+.cards {
+  margin-top: 10px;
+  width: 25%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+}
+.todo-div-style {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 120px;
+  margin-top: 1rem;
+  overflow: auto;
+  border-radius: 5px;
+}
+.inprog-div-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  margin-top: 1rem;
+  overflow: auto;
+  border-radius: 5px;
+}
+.done-div-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  margin-top: 1rem;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.task-title-style {
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+.name-style {
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.assign-txt-style {
+  width: 50%;
+  height: 30%;
+  padding-left: 5%;
+  margin-left: 5%;
+}
+.assignBtn-style {
+  width: 20%;
+  height: 30%;
+}
+.doneBtn-style {
+  width: 20%;
+  height: 30%;
+}
+.hide {
+  display: none;
+}

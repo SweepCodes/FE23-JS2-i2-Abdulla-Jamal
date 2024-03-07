@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1709835978588,
+    "task": "Center div",
+    "category": "Design",
+    "status": "To do",
+    "assignee": ""
+  },
+  {
+    "id": 1709835991991,
+    "task": "Chill on the couch",
+    "category": "Backend",
+    "status": "In Progress",
+    "assignee": "Abdulla"
+  },
+  {
+    "id": 1709836018474,
+    "task": "Inlämning 2",
+    "category": "Frontend",
+    "status": "Done",
+    "assignee": "Abdulla"
+  }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="form-container">
+      <h1>Scrum Board</h1>
+      <form id="main-task-form">
+        <input type="text" id="task-input" placeholder="Enter task..." />
+        <select id="tasks-menu" name="tasks">
+          <option value="Frontend">Frontend</option>
+          <option value="Backend">Backend</option>
+          <option value="Design">Design</option>
+        </select>
+        <button id="addTaskBtn">Add</button>
+      </form>
+      <div id="task-options-container">
+        <div class="choices" id="feChoice">dev Frontend</div>
+        <div class="choices" id="uxChoice">UX</div>
+        <div class="choices" id="beChoice">dev Backend</div>
+      </div>
+    </div>
+    <div id="scrum-board-container">
+      <div class="cards" id="todo">
+        <div>
+          <h2>To Do</h2>
+        </div>
+      </div>
+      <div class="cards" id="inprogress">
+        <div>
+          <h2 id="inprogstate">In Progress</h2>
+        </div>
+      </div>
+      <div class="cards" id="done">
+        <div>
+          <h2 id="donestate">Done</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
